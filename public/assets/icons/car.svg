@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M14 16H9m10 0a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10z"/>
-  <path d="M8 14v.01"/>
-  <path d="M16 14v.01"/>
-  <path d="M7 15h10"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <!-- Car body -->
+  <path d="M5 16h14c.552 0 1-.448 1-1v-4c0-.552-.448-1-1-1H5c-.552 0-1 .448-1 1v4c0 .552.448 1 1 1z" fill="#10b981"/>
+  <!-- Car roof -->
+  <path d="M6 10h12l-1.5-3H7.5L6 10z" fill="#10b981"/>
+  <!-- Wheels -->
+  <circle cx="8" cy="18" r="2" fill="#374151" stroke="#10b981" stroke-width="1"/>
+  <circle cx="16" cy="18" r="2" fill="#374151" stroke="#10b981" stroke-width="1"/>
+  <!-- Wheel centers -->
+  <circle cx="8" cy="18" r="0.8" fill="#10b981"/>
+  <circle cx="16" cy="18" r="0.8" fill="#10b981"/>
+  <!-- Windows -->
+  <rect x="7" y="8" width="10" height="2" rx="1" fill="#374151"/>
 </svg>

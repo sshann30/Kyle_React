@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <circle cx="12" cy="12" r="3"/>
-  <path d="M12 1v6m0 6v6"/>
-  <path d="m4.2 4.2 4.2 4.2"/>
-  <path d="m15.6 15.6 4.2 4.2"/>
-  <path d="M1 12h6m6 0h6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <!-- Sun center -->
+  <circle cx="12" cy="12" r="4" fill="#10b981"/>
+  <!-- Sun rays -->
+  <path d="M12 1v4" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M12 19v4" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M4.22 4.22l2.83 2.83" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16.95 16.95l2.83 2.83" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M1 12h4" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M19 12h4" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M4.22 19.78l2.83-2.83" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16.95 7.05l2.83-2.83" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <!-- Inner glow -->
+  <circle cx="12" cy="12" r="2" fill="#34d399" opacity="0.6"/>
 </svg>

@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
-  <rect width="120" height="40" fill="#1f2937"/>
-  <text x="60" y="22" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">AVERY</text>
-  <text x="60" y="32" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">DENNISON</text>
+  <defs>
+    <linearGradient id="averyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="40" fill="#1f2937" rx="8"/>
+  <rect x="8" y="6" width="104" height="12" fill="url(#averyGradient)" rx="2"/>
+  <rect x="8" y="22" width="104" height="12" fill="url(#averyGradient)" rx="2"/>
+  <text x="60" y="15" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">AVERY</text>
+  <text x="60" y="31" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">DENNISON</text>
 </svg>
